@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+}
+
+.menu-principal{
+    display: flex;
+    border: solid 1px #E8EBE4;
+    width: 300px;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #fbfbfb;
+}
+
+.perfil-iconos{
+    display: flex;
+    gap: 10px;
+}
+.perfil-foto img{ 
+    border-radius: 50%;
+    width: 2rem;
+    gap: 10px;
+}
+
+.perfil-datos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ i {
+    color: #c9d2de;
+}
+
+.nombre {
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.estado {
+    color: #c9d2de;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.perfil-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border:  solid 1px #c9d2de;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dcdcdd;
+    min-height: 14vh;
+}
+
+main{
+    border: solid 1px #E8EBE4;
+    width: 80%;
+}
+button{
+    background: #a490d2;
+    font-size: 1.1rem;
+    color: #ffff;
+    padding: 5px 25px;
+    border: none;
+    transition: all 0.5s;
+}
+.perfil-usuario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border:  solid 1px #c9d2de;
+}
+.datos-usuario{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.foto-usuario img{
+    border-radius: 50%;
+    width: 2rem;
+    gap: 10px;
+}
+
+.nombre-u {
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.estado-u {
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+.contenedor-principal{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .contenedor-imagen{
+    width: 300px;
+    height: 300px;
+ }
+
+ .contenedor-imagen img{
+    width: 300px;
+    height: 300px;
+ }
+ .contenedor-titulo{
+    text-align: center;
+ }
+
+ .contenedor-titulo h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
